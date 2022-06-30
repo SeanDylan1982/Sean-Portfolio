@@ -791,6 +791,8 @@ a:hover {
 }
 .service-box .ico-circle i {
   line-height: 0;
+  color: #004799;
+  background-color: rgb(220, 220, 220);
   font-size: 40px;
 }
 .service-box .s-title {
