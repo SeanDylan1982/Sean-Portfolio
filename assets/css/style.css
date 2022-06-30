@@ -783,6 +783,8 @@ a:hover {
 .service-box .ico-circle {
   transition: all 500ms ease;
   display: inline-flex;
+  color: #004799;
+  background-color: rgb(220, 220, 220);
   align-items: center;
   justify-content: center;
 }
