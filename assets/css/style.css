@@ -304,20 +304,23 @@ a:hover {
 .back-to-top {
   position: fixed;
   visibility: hidden;
-  opacity: 0.7;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
+  opacity: 0.8;
+  right: 2rem;
+  bottom: 2rem;
+  z-index: 990;
   background: #004799;
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  transition: all 1s;
+  transition: opacity 1.5s;
+  scroll-margin-top;
 }
 .back-to-top i {
   font-size: 28px;
   color: #f2f2f2;
-  line-height: 0;
+  line-height: 40;
+  transition: opacity 1.5s;
+
 }
 .back-to-top:hover {
   background: #297fe0;
@@ -326,6 +329,8 @@ a:hover {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+  transition: opacity 1.5s;
+  scroll-margin-top: #home;
 }
 
 /*------/ Prelaoder /------*/
