@@ -12,6 +12,7 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
   <!-- Main CSS Stylesheet File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <!-- Netlify Authentication Script -->
@@ -30,7 +31,6 @@
           <li><a class="nav-link scrollto" href="#work">Work</a></li>
           <li><a class="nav-link scrollto" href="#plans">Plans</a></li>
           <li><a class="nav-link scrollto" href="#contact-form">Contact</a></li>
-          <li><div data-netlify-identity-button></div></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -44,7 +44,7 @@
         <div class="container">
           <p class="display-6 color-d">hello, World!</p>
           <h1 class="hero-title mb-4">I'm Sean</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Designer, Developer, Coder, Freelancer, Learner, Artist, Enthusiast, Student, sometimes confused..., Stubborn, Opinionated, Loyal, Hardworking, Insightful, Creative, Thoughtful, Considered, Considerate, Amusing, Unamused, Serious, Diligent, Ethical, Innovative, Constructive, a Fiddler, a Leader, Assertive, a Team Player"></span></p>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Designer, Developer, Coder, Freelancer, Learner, Artist, Enthusiast, Student, Stubborn, Opinionated, Loyal, Hardworking, Insightful, Creative, Thoughtful, Considered, Considerate, Amusing, Unamused, Serious, Diligent, Ethical, Innovative, Constructive, a Fiddler, a Leader, Assertive, a Team Player"></span></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">More About Me</a></p> -->
         </div>
       </div>
@@ -66,9 +66,9 @@
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
                         <p><span class="title-s">Name: </span> <span>Sean Dylan Patterson</span></p>
-                        <p><span class="title-s">Status: </span> <span>Developer in Training</span></p>
-                        <p><span class="title-s">Email: </span> <span>seandylanpatterson@gmail.com</span></p>
-                        <p><span class="title-s">Phone: </span> <span>+27-79-415-7439</span></p>
+                        <p><span class="title-s">Status: </span> <span>Front End Developer</span></p>
+                        <p><span class="title-s">Email: </span> <span> <a href="mailto:sean@seanpatterson.co.za">sean@seanpatterson.co.za</a></span></p>
+                        <p><span class="title-s">Phone: </span> <span> <a href="tel:+27761051443">+27-76-105-1443</a></span></p>
                       </div>
                     </div>
                   </div>
@@ -78,19 +78,19 @@
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="html5"></div></p>
                     </div>
-                    <p class="title-s"><img src="assets/img/php.png" alt="The PHP Logo" loading="lazy" ></a><span> &nbsp;<em> PHP </em></span><span class="pull-right"> &nbsp; - 75%</span>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="php"></div></p>
-                      </div>
                     <p class="title-s"><img src="assets/img/css3.png" alt="The CSS3 Logo" loading="lazy" ></a><span> &nbsp;<em> CSS3 </em></span><span class="pull-right"> &nbsp; - 70%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="css3"></div></p>
-                    </div>
-                    <p class="title-s"><img src="assets/img/javascript.png" alt="The JavaScript Library Logo" loading="lazy" ></a><span> &nbsp;<em> JavaScript </em></span><span class="pull-right">  &nbsp; - 60%</span>
                       <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" aria-label="js"></div></p>
+                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="css3"></div></p>
                       </div>
-                    </div>
+                      <p class="title-s"><img src="assets/img/javascript.png" alt="The JavaScript Library Logo" loading="lazy" ></a><span> &nbsp;<em> JavaScript </em></span><span class="pull-right">  &nbsp; - 60%</span>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" aria-label="js"></div></p>
+                        </div>
+                        <p class="title-s"><img src="assets/img/php.png" alt="The PHP Logo" loading="lazy" ></a><span> &nbsp;<em> PHP </em></span><span class="pull-right"> &nbsp; - 55%</span>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="php"></div></p>
+                          </div>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <div class="about-me pt-4 pt-md-0">
@@ -647,7 +647,8 @@
                           </div>
                           <div styles="align-items-center" data-netlify-recaptcha="true"></div>
                           <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                            <br>
+                            <button type="submit" class="button button-a button-big button-rouded" id="contact-btn">Send</button>
                           </div>
                         </div>
                       </form>
@@ -671,9 +672,9 @@
                         <p>
                         </p>
                       <ul class="list-ico">
-                        <li><span class="bi bi-geo-alt"></span><a href="https://www.google.co.za/maps/place/Airfield,+Benoni,+1501/@-26.1720865,28.3111327,16z/data=!4m5!3m4!1s0x1e953d90fc5cce5f:0xc0288e35d91a3f74!8m2!3d-26.1720865!4d28.3155101"> Airfield, Benoni, Gauteng, South Africa </a></li> 
-                        <li><span class="bi bi-envelope"></span><a href="mailto:seandylanpatterson@gmail.com?subject=Hey, Sean!"> seandylanpatterson@gmail.com</a></li>
-                        <li><span class="bi bi-phone"></span><a href="tel: +2779-415-7439"> +2779-415-7439</a></li>
+                        <li><span class="bi bi-geo-alt"></span><a href="https://www.google.co.za/maps/place/Airfield,+Benoni,+1501/@-26.1720865,28.3111327,16z/data=!4m5!3m4!1s0x1e953d90fc5cce5f:0xc0288e35d91a3f74!8m2!3d-26.1720865!4d28.3155101"> Benoni, Gauteng, South Africa </a></li> 
+                        <li><span class="bi bi-envelope"></span><a href="mailto:seandylanpatterson@gmail.com?subject=Hey, Sean!"> sean@seanpatterson.co.za</a></li>
+                        <li><span class="bi bi-phone"></span><a href="tel: +27794157439"> +2776-105-1443</a></li>
                       </ul>
                       <p>
                       </p>
@@ -682,12 +683,8 @@
                       <ul>
                         <li><a href="https://www.linkedin.com/in/seandylanpatterson/" target="_blank" title="Sean on LinkedIn "><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
                         <li><a href="https://www.github.com/SeanDylan1982/" target="_blank" title="Sean's GitHub "><span class="ico-circle"><i class="bi bi-github"></i></span></a></li>
-                        <li><a href="https://www.gitcoin.co/SeanDylan1982/" target="_blank" title="Sean on Gitcoin "><span class="ico-circle"><i class="bi bi-globe"></i></span></a></li>
                         <li><a href="https://www.freecodecamp.org/Sean-Patterson/" target="_blank" title="Sean's at freeCodeCamp "><span class="ico-circle"><i class="bi bi-code-slash"></i></span></a></li>
-                        <li><a href="https://www.facebook.com/justseanreally/" target="_blank" title="Sean's Facebook "><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
                         <li><a href="https://www.twitter.com/@SeanDylan1982/" target="_blank" title="Sean's Twitter "><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
-                        <li><a href="https://www.instagram.com/SeanDylan1982/" target="_blank" title="Sean's Instagram "><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
-                        <li><a href="https://www.tiktok.com/@SeanDylan1982" target="_blank" title="Sean's TikTok "><span class="ico-circle"><i class="bi bi-tiktok"></i></span></a></li>
                       </ul>
                     </div>
                   </div>
@@ -705,14 +702,14 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <p class="copyright">&copy; Copyright 2022 <a href="https://github.com/SeanDylan1982" style="color:#f2f2f2" title="Sean's GitHub" target="_blank"><strong>Sean Dylan Patterson</strong></a>. All Rights Reserved</p>
+            <p class="copyright">&copy; Copyright 2023 <a href="https://github.com/SeanDylan1982" style="color:#f2f2f2" title="Sean's GitHub" target="_blank"><strong>Sean Dylan Patterson</strong></a>. All Rights Reserved</p>
           </div>
         </div>
       </div>
     </div>
   </footer><!-- End Footer Section -->
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#hero" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter.js" defer></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>

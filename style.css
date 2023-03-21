@@ -1,0 +1,26 @@
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.socials {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#contact-btn {
+  width: 200px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
