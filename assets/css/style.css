@@ -446,6 +446,13 @@ a:hover {
 }
 #header .logo img {
   max-height: 40px;
+  transition: all .5s ease-in-out;
+  filter: grayscale(75%);
+}
+#header .logo img:hover {
+  transition: all .5s ease-in-out;
+  box-shadow: 0 0 5px #ffe204;
+  filter: grayscale(20%);
 }
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
