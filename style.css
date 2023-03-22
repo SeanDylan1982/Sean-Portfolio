@@ -24,3 +24,33 @@ html {
   margin-top: 10px;
   padding-top: 10px;
 }
+
+.tech-stack img {
+  position: relative;
+  left: -10px;
+  width: 60px;
+  height: 60px;
+  margin: 0 7px;
+  justify-content: space-between;
+}
+
+.tech-stack span {
+  position: relative;
+  left: 20px;
+  margin: 0 0 0 12px;
+  justify-content: space-between;
+}
+
+.pair-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 7px;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
