@@ -5,6 +5,7 @@ stylesheet.css for Sean Dylan Patterson - Portfolio
 body {
   background-color: rgb(250, 250, 250);
   color: #1a1a1a;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -313,7 +314,7 @@ a:hover {
   height: 40px;
   border-radius: 50px;
   transition: opacity 1.5s;
-  scroll-margin-top;
+  scroll-margin-top: home;
 }
 .back-to-top i {
   font-size: 28px;
@@ -325,12 +326,13 @@ a:hover {
 .back-to-top:hover {
   background: #297fe0;
   color: rgb(240, 240, 240);
+  text-shadow: 0 0 5px #fffc31;
 }
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
   transition: opacity 1.5s;
-  scroll-margin-top: #home;
+  scroll-margin-top: home;
 }
 
 /*------/ Prelaoder /------*/
@@ -355,6 +357,7 @@ a:hover {
   border-radius: 50%;
   width: 60px;
   height: 60px;
+  scroll-behavior: smooth;
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
 }
@@ -1299,3 +1302,212 @@ footer .credits {
 footer .credits a {
   color: rgb(240, 240, 240);
 }
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+
+html {
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.socials {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#contact-btn {
+  width: 200px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.tech-stack {
+  position: relative;
+  left: -30px;
+}
+
+.tech-stack h4 {
+  position: relative;
+  top: 0px;
+  left: 40px;
+}
+
+.tech-stack img {
+  position: relative;
+  left: -10px;
+  width: 60px;
+  height: 60px;
+  margin: 0 7px;
+  justify-content: space-between;
+}
+
+.tech-stack span {
+  position: relative;
+  left: 20px;
+  margin: 0 0 0 12px;
+  justify-content: space-between;
+}
+
+.pair-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 7px;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.tooltip {
+  position: relative;
+  display: grid;
+  z-index: 3;
+  visibility: visible;
+  opacity: 1;
+  width: 65px;
+  height: 65px;
+  font-size: 2rem;
+  top: 20%;
+  left: -1000%;
+  margin-left: 0px;
+  margin: 20px 0;
+  padding: 10px 0;
+  transition: all 0.7s ease-in-out;
+  text-align: centre;
+  width: 150px;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 600px;
+  height: 800px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  transition: all 0.7s ease-in-out;
+  overflow-y: scroll;
+  text-align: centre;
+}
+
+.tooltip .tooltip-text::-webkit-scrollbar {
+  display: none;
+}
+.tooltip .tooltip-text {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.tooltip p {
+  position: relative;
+  top: -30px;
+  left: 55px;
+  font-size: .65rem;
+  font-weight: 500;
+  text-align: left;
+  color: #f1f1f1;
+  /* background-color: #111111; */
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+#sidebar {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  height: 600px;
+  top: 20%;
+  right: -100%;
+  margin: 10px;
+}
+
+#cl {
+  position: absolute;
+  display: grid;
+  top: -265%;
+  left: -430%;
+  width: 600px;
+  height: 780px;
+}
+
+#cv {
+  position: absolute;
+  display: grid;
+  top: -425%;
+  left: -430%;
+  width: 600px;
+  height: 780px;
+}
+
+#cs {
+  position: absolute;
+  display: grid;
+  top: -585%;
+  left: -430%;
+  width: 600px;
+  height: 780px;
+}
+
+#id {
+  position: absolute;
+  display: grid;
+  top: -755%;
+  left: -430%;
+  width: 600px;
+  height: 780px;
+}
+
+#vax {
+  position: absolute;
+  display: grid;
+  top: -915%;
+  left: -430%;
+  width: 600px;
+  height: 780px;
+}
+
+.fa {
+  scale: 1;
+  transition: all .5s ease-in-out;
+  color: #f1f1f1;
+}
+
+.fa:hover {
+  scale: 1.1;
+  transform: translateY(-5px);
+  transform: translateX(5px);
+  transition: all .5s ease-in-out;
+  text-shadow: 0 0 8px #f8ff71;
+  color: #111;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+

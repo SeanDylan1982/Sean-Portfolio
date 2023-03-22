@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "bootstrap-icons": "^1.8.3"
+    "bootstrap-icons": "^1.8.3",
+    "gzip": "^0.1.0"
   }
 }
