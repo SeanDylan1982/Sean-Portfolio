@@ -2,5 +2,24 @@
   "dependencies": {
     "bootstrap-icons": "^1.8.3",
     "gzip": "^0.1.0"
-  }
+  },
+  "name": "sean-portfolio",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/95f58bd1-48b5-4372-9cff-34a38246e799/deploy-status)](https://app.netlify.com/sites/seanp/deploys)",
+  "version": "1.0.0",
+  "main": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanDylan1982/Sean-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanDylan1982/Sean-Portfolio/issues"
+  },
+  "homepage": "https://github.com/SeanDylan1982/Sean-Portfolio#readme",
+  "keywords": []
 }

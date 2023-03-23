@@ -447,12 +447,12 @@ a:hover {
 #header .logo img {
   max-height: 40px;
   transition: all .5s ease-in-out;
-  filter: grayscale(75%);
+  filter: grayscale(95%);
 }
 #header .logo img:hover {
+  box-shadow: 0 0 5px #f8ff71;
   transition: all .5s ease-in-out;
-  box-shadow: 0 0 5px #ffe204;
-  filter: grayscale(20%);
+  filter: grayscale(5%);
 }
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
@@ -1400,7 +1400,7 @@ html {
 
 .tooltip .tooltip-text {
   visibility: hidden;
-  width: 600px;
+  width: 700px;
   height: 800px;
   text-align: center;
   border-radius: 6px;
@@ -1429,7 +1429,6 @@ html {
   font-weight: 500;
   text-align: left;
   color: #f1f1f1;
-  /* background-color: #111111; */
 }
 
 .tooltip:hover .tooltip-text {
@@ -1446,6 +1445,14 @@ html {
   top: 20%;
   right: -100%;
   margin: 10px;
+  opacity: 1;
+  z-index: 3;
+  transition: all .5s ease-in-out;
+}
+
+#sidebar:hover {
+  opacity: 1;
+  transition: all .5s ease-in-out;
 }
 
 #cl {
@@ -1455,6 +1462,7 @@ html {
   left: -430%;
   width: 600px;
   height: 780px;
+  transition: all .5s ease-in-out;
 }
 
 #cv {
@@ -1464,6 +1472,7 @@ html {
   left: -430%;
   width: 600px;
   height: 780px;
+  transition: all .5s ease-in-out;
 }
 
 #cs {
@@ -1473,6 +1482,7 @@ html {
   left: -430%;
   width: 600px;
   height: 780px;
+  transition: all .5s ease-in-out;
 }
 
 #id {
@@ -1482,6 +1492,7 @@ html {
   left: -430%;
   width: 600px;
   height: 780px;
+  transition: all .5s ease-in-out;
 }
 
 #vax {
@@ -1491,6 +1502,7 @@ html {
   left: -430%;
   width: 600px;
   height: 780px;
+  transition: all .5s ease-in-out;
 }
 
 .fa {
@@ -1500,9 +1512,9 @@ html {
 }
 
 .fa:hover {
-  scale: 1.1;
-  transform: translateY(-5px);
-  transform: translateX(5px);
+  scale: 1.2;
+  transform: translateY(-10px);
+  transform: translateX(10px);
   transition: all .5s ease-in-out;
   text-shadow: 0 0 8px #f8ff71;
   color: #111;
