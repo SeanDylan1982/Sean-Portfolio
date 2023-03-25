@@ -1425,8 +1425,8 @@ html {
   width: 65px;
   height: 65px;
   font-size: 2rem;
-  top: 20%;
-  left: -100%;
+  top: -140%;
+  left: -90%;
   margin-left: 0px;
   margin: 20px 0;
   padding: 10px 0;
@@ -1474,13 +1474,13 @@ html {
 }
 
 #sidebar {
-  position: absolute;
-  display: flex;
+  position: relative;
+  display: grid;
   flex-direction: column;
   width: 50px;
   height: 600px;
-  top: 20%;
-  right: -100%;
+  top: -100%;
+  right: -105%;
   margin: 10px;
   opacity: 1;
   z-index: 9;
@@ -1496,7 +1496,7 @@ html {
 #cl {
   position: absolute;
   display: grid;
-  top: -265%;
+  top: -240%;
   left: -430%;
   width: 600px;
   height: 780px;
@@ -1516,7 +1516,7 @@ html {
 #cs {
   position: absolute;
   display: grid;
-  top: -585%;
+  top: -610%;
   left: -430%;
   width: 600px;
   height: 780px;
@@ -1526,7 +1526,7 @@ html {
 #id {
   position: absolute;
   display: grid;
-  top: -755%;
+  top: -795%;
   left: -430%;
   width: 600px;
   height: 780px;
@@ -1536,7 +1536,7 @@ html {
 #vax {
   position: absolute;
   display: grid;
-  top: -915%;
+  top: -975%;
   left: -430%;
   width: 600px;
   height: 780px;
