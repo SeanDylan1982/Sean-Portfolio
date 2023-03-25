@@ -46,11 +46,16 @@ a:hover {
   color: #3d3d3d;
 }
 
-.box-shadow, .card-blog, .work-box, .service-box, .paralax-mf {
+.box-shadow,
+.card-blog,
+.work-box,
+.service-box,
+.paralax-mf {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
-.box-shadow-a, .button:hover {
+.box-shadow-a,
+.button:hover {
   text-decoration: none;
   box-shadow: 0 0 0 4px #bdbdbd;
 }
@@ -170,7 +175,7 @@ a:hover {
   position: relative;
 }
 .title-left:before {
-  content: "";
+  content: '';
   position: absolute;
   height: 3px;
   background-color: #004799;
@@ -222,7 +227,13 @@ a:hover {
 }
 
 /*------/ Ul resect /------*/
-.ul-resect, .widget-tags ul, .widget-sidebar .list-sidebar, .box-comments .list-comments, .blog-wrapper .post-meta ul, .list-ico, .socials ul {
+.ul-resect,
+.widget-tags ul,
+.widget-sidebar .list-sidebar,
+.box-comments .list-comments,
+.blog-wrapper .post-meta ul,
+.list-ico,
+.socials ul {
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
@@ -321,7 +332,6 @@ a:hover {
   color: #f2f2f2;
   line-height: 40;
   transition: opacity 1.5s;
-
 }
 .back-to-top:hover {
   background: #297fe0;
@@ -348,7 +358,7 @@ a:hover {
 }
 
 #preloader:before {
-  content: "";
+  content: '';
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
@@ -435,6 +445,8 @@ a:hover {
   padding: 20px 0;
 }
 #header .logo {
+  position: relative;
+  top: -10px;
   font-size: 28px;
   margin: 0;
   padding: 0;
@@ -446,13 +458,13 @@ a:hover {
 }
 #header .logo img {
   max-height: 40px;
-  transition: all .5s ease-in-out;
-  filter: grayscale(95%);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(35%);
 }
 #header .logo img:hover {
   box-shadow: 0 0 5px #f8ff71;
-  transition: all .5s ease-in-out;
-  filter: grayscale(5%);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(15%);
 }
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
@@ -482,7 +494,8 @@ a:hover {
   white-space: nowrap;
   padding: 10px 0 10px 30px;
 }
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -496,13 +509,14 @@ a:hover {
   position: relative;
   text-transform: uppercase;
 }
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
 .navbar > ul > li > a:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 2px;
@@ -513,11 +527,16 @@ a:hover {
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
-.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+.navbar a:hover:before,
+.navbar li:hover > a:before,
+.navbar .active:before {
   visibility: visible;
   width: 80%;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
   color: rgb(240, 240, 240);
 }
 .navbar .dropdown ul {
@@ -546,7 +565,9 @@ a:hover {
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
   color: #004799;
 }
 .navbar .dropdown:hover > ul {
@@ -626,18 +647,24 @@ a:hover {
 .navbar-mobile > ul > li {
   padding: 0;
 }
-.navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
+.navbar-mobile a:hover:before,
+.navbar-mobile li:hover > a:before,
+.navbar-mobile .active:before {
   visibility: hidden;
 }
-.navbar-mobile a, .navbar-mobile a:focus {
+.navbar-mobile a,
+.navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
   color: #1a1a1a;
 }
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
   color: #004799;
 }
-.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
   margin: 15px;
 }
 .navbar-mobile .dropdown ul {
@@ -660,7 +687,9 @@ a:hover {
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
 }
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
   color: #004799;
 }
 .navbar-mobile .dropdown > .dropdown-active {
@@ -908,14 +937,20 @@ a:hover {
   margin-top: 20px;
   position: relative;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: rgb(220, 220, 220);
   opacity: 1;
   border: 3px solid #004799;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #004799;
 }
 .portfolio-details .portfolio-info {
@@ -1051,7 +1086,7 @@ a:hover {
   padding: 15px;
 }
 .php-email-form .loading:before {
-  content: "";
+  content: '';
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -1062,12 +1097,14 @@ a:hover {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-.php-email-form input, .php-email-form textarea {
+.php-email-form input,
+.php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
-.php-email-form input:focus, .php-email-form textarea:focus {
+.php-email-form input:focus,
+.php-email-form textarea:focus {
   border-color: #004799;
 }
 .php-email-form input {
@@ -1077,14 +1114,14 @@ a:hover {
   padding: 12px 15px;
   margin-bottom: 1;
 }
-.php-email-form button[type=submit] {
+.php-email-form button[type='submit'] {
   background: #004799;
   border: 0;
   padding: 10px 24px;
   color: rgb(211, 236, 253);
   transition: 1s;
 }
-.php-email-form button[type=submit]:hover {
+.php-email-form button[type='submit']:hover {
   background: #004799;
 }
 
@@ -1170,9 +1207,9 @@ a:hover {
 }
 @media (min-width: 768px) {
   .post-box,
-.form-comments,
-.box-comments,
-.widget-sidebar {
+  .form-comments,
+  .box-comments,
+  .widget-sidebar {
     padding: 3rem;
   }
 }
@@ -1259,7 +1296,7 @@ a:hover {
 }
 .widget-sidebar .list-sidebar li:before {
   position: absolute;
-  content: "";
+  content: '';
   width: 10px;
   height: 1px;
   left: 0;
@@ -1389,7 +1426,7 @@ html {
   height: 65px;
   font-size: 2rem;
   top: 20%;
-  left: -1000%;
+  left: -100%;
   margin-left: 0px;
   margin: 20px 0;
   padding: 10px 0;
@@ -1446,13 +1483,14 @@ html {
   right: -100%;
   margin: 10px;
   opacity: 1;
-  z-index: 3;
-  transition: all .5s ease-in-out;
+  z-index: 9;
+  transition: all 0.5s ease-in-out;
+  visibility: visible;
 }
 
 #sidebar:hover {
   opacity: 1;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 #cl {
@@ -1462,7 +1500,7 @@ html {
   left: -430%;
   width: 600px;
   height: 780px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 #cv {
@@ -1472,7 +1510,7 @@ html {
   left: -430%;
   width: 600px;
   height: 780px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 #cs {
@@ -1482,7 +1520,7 @@ html {
   left: -430%;
   width: 600px;
   height: 780px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 #id {
@@ -1492,7 +1530,7 @@ html {
   left: -430%;
   width: 600px;
   height: 780px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 #vax {
@@ -1502,12 +1540,12 @@ html {
   left: -430%;
   width: 600px;
   height: 780px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .fa {
   scale: 1;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   color: #f1f1f1;
 }
 
@@ -1515,7 +1553,7 @@ html {
   scale: 1.2;
   transform: translateY(-10px);
   transform: translateX(10px);
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   text-shadow: 0 0 8px #f8ff71;
   color: #111;
 }
@@ -1529,4 +1567,3 @@ html {
   scrollbar-width: none;
   scroll-behavior: smooth;
 }
-
