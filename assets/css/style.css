@@ -459,15 +459,14 @@ a:hover {
 #header .logo img {
   max-height: 40px;
   transition: all 0.5s ease-in-out;
-  filter: grayscale(95%);
+  filter: grayscale(50%);
 }
 #header .logo img:hover {
-  box-shadow: 0 0 5px #f8ff71;
   transition: all 0.5s ease-in-out;
-  filter: grayscale(5%);
+  filter: grayscale(15%);
 }
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.95);
   padding: 12px 0;
 }
 
@@ -709,14 +708,14 @@ a:hover {
   position: absolute;
 }
 .hero .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
   left: 0px;
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 .hero .hero-title {
   color: rgb(204, 234, 255);
