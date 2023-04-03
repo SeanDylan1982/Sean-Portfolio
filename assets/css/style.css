@@ -445,8 +445,6 @@ a:hover {
   padding: 20px 0;
 }
 #header .logo {
-  position: relative;
-  top: -10px;
   font-size: 28px;
   margin: 0;
   padding: 0;
@@ -459,14 +457,15 @@ a:hover {
 #header .logo img {
   max-height: 40px;
   transition: all 0.5s ease-in-out;
-  filter: grayscale(50%);
+  filter: grayscale(55%);
 }
 #header .logo img:hover {
+  box-shadow: 0 0 5px #f8ff71;
   transition: all 0.5s ease-in-out;
-  filter: grayscale(15%);
+  filter: grayscale(25%);
 }
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(0, 0, 0, 0.9);
   padding: 12px 0;
 }
 
@@ -708,14 +707,14 @@ a:hover {
   position: absolute;
 }
 .hero .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 0;
   left: 0px;
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 .hero .hero-title {
   color: rgb(204, 234, 255);
@@ -1424,8 +1423,8 @@ html {
   width: 65px;
   height: 65px;
   font-size: 2rem;
-  top: -140%;
-  left: -90%;
+  top: 20%;
+  left: -1000%;
   margin-left: 0px;
   margin: 20px 0;
   padding: 10px 0;
@@ -1473,18 +1472,17 @@ html {
 }
 
 #sidebar {
-  position: relative;
-  display: grid;
+  position: absolute;
+  display: flex;
   flex-direction: column;
   width: 50px;
   height: 600px;
-  top: -100%;
-  right: -105%;
+  top: 20%;
+  right: -100%;
   margin: 10px;
   opacity: 1;
-  z-index: 9;
+  z-index: 3;
   transition: all 0.5s ease-in-out;
-  visibility: visible;
 }
 
 #sidebar:hover {
@@ -1495,7 +1493,7 @@ html {
 #cl {
   position: absolute;
   display: grid;
-  top: -240%;
+  top: -265%;
   left: -430%;
   width: 600px;
   height: 780px;
@@ -1515,7 +1513,7 @@ html {
 #cs {
   position: absolute;
   display: grid;
-  top: -610%;
+  top: -585%;
   left: -430%;
   width: 600px;
   height: 780px;
@@ -1525,7 +1523,7 @@ html {
 #id {
   position: absolute;
   display: grid;
-  top: -795%;
+  top: -755%;
   left: -430%;
   width: 600px;
   height: 780px;
@@ -1535,7 +1533,7 @@ html {
 #vax {
   position: absolute;
   display: grid;
-  top: -975%;
+  top: -915%;
   left: -430%;
   width: 600px;
   height: 780px;
