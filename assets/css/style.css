@@ -370,6 +370,7 @@ a:hover {
   scroll-behavior: smooth;
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
+  box-shadow: 0 0 15px #3091ff;
 }
 
 @-webkit-keyframes animate-preloader {
@@ -460,9 +461,8 @@ a:hover {
   filter: grayscale(55%);
 }
 #header .logo img:hover {
-  box-shadow: 0 0 5px #f8ff71;
   transition: all 0.5s ease-in-out;
-  filter: grayscale(25%);
+  filter: grayscale(5%);
 }
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
@@ -1483,11 +1483,15 @@ html {
   opacity: 1;
   z-index: 3;
   transition: all 0.5s ease-in-out;
+  background-color: #111;
+  color: #fff;
 }
 
 #sidebar:hover {
   opacity: 1;
   transition: all 0.5s ease-in-out;
+  background-color: #111;
+  color: #fff;
 }
 
 #cl {
@@ -1551,8 +1555,8 @@ html {
   transform: translateY(-10px);
   transform: translateX(10px);
   transition: all 0.5s ease-in-out;
-  text-shadow: 0 0 8px #f8ff71;
-  color: #111;
+  text-shadow: 0 0 20px #0b7dff;
+  color: #bfe6ff;
 }
 
 html::-webkit-scrollbar {
