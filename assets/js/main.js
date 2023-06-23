@@ -226,5 +226,5 @@ main.js for Sean Dylan Patterson - Portfolio
 })()
 let sidebar = document.getElementById('sidebar');
 window.addEventListener('scroll', () => {
-  sidebar.style.right = "-665px";
+  sidebar.style.right = "-580px";
 })
